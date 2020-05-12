@@ -1,7 +1,7 @@
 import json
 import bs4
 import requests
-
+#dependencies
 def crawl():
     url="https://www.imdb.com/chart/top/?sort=rk,asc&mode=simple&page=1" #URL for movies
     e=requests.get(url)
